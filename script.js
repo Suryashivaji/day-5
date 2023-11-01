@@ -1,4 +1,27 @@
+// Qustion 1. 
+class movie {
 
+  constructor(MovieName,Studio,Rating="PG12"){
+    this.MovieName=MovieName;
+    this.Studio=Studio;
+    this.Rating=Rating;
+  }
+
+}
+
+var reviwe = new movie("Leo","Redjayant","R");
+var reviwe1 = new movie("Casino Royale","Eon Productions","PG­13");
+var reviwe2 =new movie("Mannadu","Sun pictures")
+
+console.log(`MovieName: ${reviwe.MovieName}
+Studio: ${reviwe.Studio}
+Rating: ${reviwe.Rating}`);
+
+console.log(reviwe2.Rating);
+
+console.log(`MovieName: ${reviwe1.MovieName}
+Studio: ${reviwe1.Studio}
+Rating: ${reviwe1.Rating}`);
 
 // Qustion 2. 
 
@@ -6,7 +29,7 @@
 class circle{
   constructor(radius,color){
     this.radius=radius;
-    this.color=color
+    this.color=color;
   }
   get radiusCircle(){
     return this.radius;
